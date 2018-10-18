@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <title>Create a greeting!</title>
+</head>
+<body>
+<div class="container">
+    <h1>Fill in your name and address to order!</h1>
+
+    <form action="greetings_order_confirmed.php">
+        <div class="form-group">
+            <label for="recipient">Your name</label>
+            <input id="recipient" name="recipient" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+            <label for="address">Your address</label>
+            <input id="address" name="address" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">Go!</button>
+    </form>
+
+</div>
+</body>
+</html>
