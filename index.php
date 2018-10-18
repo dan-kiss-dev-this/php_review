@@ -2,7 +2,7 @@
     $message = 'Hello World';
     ?>
 
-<!DOCTYPE html>
+<!DOCTYPE$ html>
 <html>
 <head>
     <title>helloworld</title>
@@ -10,5 +10,6 @@
 </head>
 <body>
 <h1><?php echo $message ?></h1>
+<h1><?php echo $stuff ?></h1>
 </body>
 </html>
