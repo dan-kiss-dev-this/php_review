@@ -5,6 +5,7 @@ $string_one=$_GET["string_one"];
 $string_two=$_GET["string_two"];
 $string_three=$_GET["string_three"];
 $string_four=$_GET["string_four"];
+$string_five=$_GET["string_five"];
 
 function playString($a, $b, $c) {
   return strrev($a) . ' '. strtoupper($b) . ' '. strrev(strtoupper($c)) ;
@@ -19,6 +20,13 @@ function tempTeller($temp)
     }
     return "It's lovely out!";
 }
+
+function canIEatThis($food) {
+    if (strpos($food, 'pineapples') ||  strpos($food, 'fish') !== false ) {
+         return 'you cant eat that';
+  } return 'bon appitet lets eat';
+
+}
 ?>
 
 <!DOCTYPE html>
@@ -27,12 +35,6 @@ function tempTeller($temp)
   <title>Strings!</title>
 </head>
 <body>
-<p><!--Create an encryption website where the user enters three phrases into a form. Then the three phrases are put into a function-->
-  <!--which reverses the first one,
-  capitalizes all letters in the second one, and
-  makes the third one capitalized and reversed. -->
-  <!--Then all three new strings should be concatenated (added together) into one string within the function and then returned.-->
-  <!--Display the new string in the browser under the original phrases.--></p>
 <p>answer:
   <?php echo playString($string_one,$string_two,$string_three); ?>
 </p>
@@ -40,5 +42,6 @@ function tempTeller($temp)
 <p>answer to temp:
   <?php echo tempTeller($string_four); ?>
 </p>
+<p>Food answer: <?php echo canIEatThis($string_five); ?></p>
 </body>
 </html>
