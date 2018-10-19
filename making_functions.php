@@ -22,7 +22,7 @@ function tempTeller($temp)
 }
 
 function canIEatThis($food) {
-    if (strpos($food, 'pineapples') ||  strpos($food, 'fish') !== false ) {
+    if (strpos($food, 'pineapples') &&  strpos($food, 'fish') !== false ) {
          return 'you cant eat that';
   } return 'bon appitet lets eat';
 
