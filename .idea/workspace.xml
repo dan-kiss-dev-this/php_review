@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="172344b0-c4c6-43d9-8838-bf215f15a491" name="Default Changelist" comment="" />
+    <list default="true" id="172344b0-c4c6-43d9-8838-bf215f15a491" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/making_functions.html" beforeDir="false" afterPath="$PROJECT_DIR$/making_functions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/making_functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/making_functions.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +39,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="69" />
-          <entry key="html" value="404" />
-          <entry key="php" value="1181" />
+          <entry key="html" value="405" />
+          <entry key="php" value="1332" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="69" />
-          <entry key="HTML" value="404" />
-          <entry key="PHP" value="1181" />
+          <entry key="HTML" value="405" />
+          <entry key="PHP" value="1332" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -59,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-7">
               <caret selection-end-line="14" selection-end-column="7" />
             </state>
           </provider>
@@ -68,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/band.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="-7">
               <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
             </state>
           </provider>
@@ -77,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/four_strings.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="32" column="7" lean-forward="true" selection-end-line="32" selection-end-column="7" />
+            <state relative-caret-position="-7">
+              <caret line="32" column="7" selection-end-line="32" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -86,26 +89,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/four_strings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/making_functions.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="24" column="56" lean-forward="true" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+            <state relative-caret-position="-7">
+              <caret line="1" column="33" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/making_functions.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="25" column="88" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/making_functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="190">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -151,9 +154,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="164" />
-    <option name="y" value="321" />
+    <option name="y" value="158" />
     <option name="width" value="1541" />
-    <option name="height" value="622" />
+    <option name="height" value="785" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -212,15 +215,15 @@
       <option name="presentableId" value="Default" />
       <updated>1539880730088</updated>
       <workItem from="1539880731647" duration="1450000" />
-      <workItem from="1539898111937" duration="10634000" />
+      <workItem from="1539898111937" duration="11893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12084000" />
+    <option name="totallyTimeSpent" value="13343000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="164" y="321" width="1541" height="622" extended-state="0" />
+    <frame x="164" y="158" width="1541" height="785" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2288192" />
@@ -236,7 +239,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33962265" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.25974026" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -284,7 +287,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-7">
           <caret selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
@@ -319,36 +322,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/band.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="-7">
           <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/four_strings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="33" />
+        <state relative-caret-position="-7">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/four_strings.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="32" column="7" lean-forward="true" selection-end-line="32" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/making_functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="-7">
+          <caret line="32" column="7" selection-end-line="32" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/making_functions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="24" column="56" lean-forward="true" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+        <state relative-caret-position="215">
+          <caret line="25" column="88" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/making_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
         </state>
       </provider>
     </entry>
