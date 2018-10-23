@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="172344b0-c4c6-43d9-8838-bf215f15a491" name="Default Changelist" comment="" />
+    <list default="true" id="172344b0-c4c6-43d9-8838-bf215f15a491" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/Contact.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +39,14 @@
         <counts>
           <entry key="css" value="69" />
           <entry key="html" value="455" />
-          <entry key="php" value="3567" />
+          <entry key="php" value="3995" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="69" />
           <entry key="HTML" value="455" />
-          <entry key="PHP" value="3567" />
+          <entry key="PHP" value="3995" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -122,8 +124,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Contact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="58">
+              <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -254,12 +256,12 @@
       <option name="presentableId" value="Default" />
       <updated>1539880730088</updated>
       <workItem from="1539880731647" duration="1450000" />
-      <workItem from="1539898111937" duration="25473000" />
+      <workItem from="1539898111937" duration="27382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26923000" />
+    <option name="totallyTimeSpent" value="28832000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="139" y="460" width="1541" height="554" extended-state="0" />
@@ -445,8 +447,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Contact.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="58">
+          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
         </state>
       </provider>
     </entry>

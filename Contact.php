@@ -4,24 +4,42 @@ class Contact
   public $name;
   public $phone;
   public $address;
-  public $image_path;
+  private $story;
+
+  function __construct($some_name, $some_phone, $some_address, $some_story = "It was a dark night...")
+  {
+      $this->name=$some_name;
+      $this->phone=$some_phone;
+      $this->address=$some_address;
+      $this->story=$some_story;
+  }
+
+  /**
+   * @param mixed $story
+   */
+  public function setStory($story): void
+  {
+    $this->story = $story;
+  }
+
+  /**
+   * @return string
+   */
+  public function getStory(): string
+  {
+    return $this->story;
+  }
 }
 
-$hendrix = new Contact();
-$hendrix->name = "Jimi Hendrix";
-$hendrix->phone = "555-555-5555";
-$hendrix->address = "123 st usa";
-$hendrix->image_path = "images/hendrix.jpg";
+$hendrix = new Contact("Jimi Hendrix","555-555-5555","123 st usa");
+//old way below
+//$hendrix->name = "Jimi Hendrix";
+//$hendrix->phone = "555-555-5555";
+//$hendrix->address = "123 st usa";
 
-$elvis = new Contact();
-$elvis->name = "Elvis Presley";
-$elvis->phone = "617-356-3571";
-$elvis->address = "Graceland";
+$elvis = new Contact("Elvis Presley", "617-356-3571", "Graceland");
 
-$einstein = new Contact();
-$einstein->name = "Albert Einstein";
-$einstein->phone = "415-738-4935";
-$einstein->address = "3718 MLK blvd. Oakland, CA 94609";
+$einstein = new Contact("Albert Einstein","415-738-4935","3718 MLK blvd. Oakland, CA 94608");
 
 $address_book = array($hendrix, $elvis, $einstein);
 
@@ -40,13 +58,17 @@ $address_book = array($hendrix, $elvis, $einstein);
   <ul>
     <?php
     foreach ($address_book as $contact) {
-      echo "<li>";
-      echo $contact->name;
-      echo "<ul>";
-      echo "<li> $contact->phone </li>";
-      echo "<li> $contact->address </li>";
-      echo "</ul>";
-      echo "</li>";
+      if ($contact->name !="Albert Einstein") {
+        echo "<li>";
+        echo $contact->name;
+        echo "<ul>";
+        echo "<li> $contact->phone </li>";
+        echo "<li> $contact->address </li>";
+        $contact->setStory("It was sunset...");
+        echo "<li>". $contact->getStory()."</li>";
+        echo "</ul>";
+        echo "</li>";
+      }
     }
     ?>
 
